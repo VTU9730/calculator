@@ -13,7 +13,7 @@ var mul="";
 var divide="";
 var obj=[];
 app.get("/",function(req,res){
-  res.render("about",{numa:num1,sum:sum,numb:num2,sub:sub,mul:mul,divide:divide});
+  res.render("views/about",{numa:num1,sum:sum,numb:num2,sub:sub,mul:mul,divide:divide});
 });
 
 app.post("/",function(req,res){
